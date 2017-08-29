@@ -12538,12 +12538,15 @@
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "c:\\git\\aspnetcoreloadtest\\aspnetcoreproject\\aspnetcoreloadtest.csproj",
+      "projectUniqueName": "C:\\git\\aspnetcoreloadtest\\aspnetcoreproject\\aspnetcoreloadtest.csproj",
       "projectName": "aspnetcoreloadtest",
-      "projectPath": "c:\\git\\aspnetcoreloadtest\\aspnetcoreproject\\aspnetcoreloadtest.csproj",
+      "projectPath": "C:\\git\\aspnetcoreloadtest\\aspnetcoreproject\\aspnetcoreloadtest.csproj",
       "packagesPath": "C:\\Users\\johan\\.nuget\\packages\\",
-      "outputPath": "c:\\git\\aspnetcoreloadtest\\aspnetcoreproject\\obj\\",
+      "outputPath": "C:\\git\\aspnetcoreloadtest\\aspnetcoreproject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
