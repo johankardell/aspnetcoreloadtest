@@ -1,0 +1,14 @@
+{
+  "name": "checkout-artillery",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "loadtest": "artillery run aspnetcoreloadtest.yml -e azure"
+  },
+  "devDependencies": {
+    "artillery": "^1.6.0-4",
+    "crypto-js": "^3.1.9-1"
+  }
+}

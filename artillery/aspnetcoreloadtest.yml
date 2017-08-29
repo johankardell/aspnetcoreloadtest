@@ -1,0 +1,46 @@
+#
+# Global Configuration
+#
+config:
+  environments:
+    azure:
+      target: "https://joka-aspnetcore-loadtest.azurewebsites.net"
+      phases:
+        # run for n seconds and make one virtual user arrive every n seconds
+        - duration: 10
+          arrivalRate: 5
+          name: "Warm up the application"
+        - duration: 600
+          arrivalRate: 10
+          rampTo: 50
+          name: "Load test"
+
+#
+# Scenario definition
+#
+scenarios:
+
+# -- SCENARIO: Scenario: Perform Direct Invoice Purchase ------------------------------------
+  - name: "Call aspnetcore webapp"
+    weight: 1
+    flow:
+    - get:
+        url: "/api/delay"
+    - get:
+        url: "/api/delay"
+    - get:
+        url: "/api/delay"
+    - get:
+        url: "/api/delay"
+    - get:
+        url: "/api/delay"
+    - get:
+        url: "/api/delay"
+    - get:
+        url: "/api/delay"
+    - get:
+        url: "/api/delay"
+    - get:
+        url: "/api/delay"
+    - get:
+        url: "/api/delay"
